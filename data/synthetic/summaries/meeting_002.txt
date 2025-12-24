@@ -1,0 +1,31 @@
+The engineering team conducted a retrospective for Sprint 23, identifying both successes and areas for improvement. The new CI/CD pipeline implementation was highlighted as a major achievement, reducing deployment time from 45 minutes to 15 minutes. However, the team experienced an increase in production bugs and a drop in test coverage from 85% to 72%. Code reviews were rushed to meet deadlines, compromising quality standards. QA team reported insufficient testing time due to late builds. Team morale was impacted by three consecutive weeks of overtime work, leading to burnout concerns.
+
+**Action Items:**
+- Enforce code freeze 48 hours before sprint end
+- Emily to implement automated quality gates blocking merges below 80% coverage (ready next sprint)
+- Raj to coordinate with DevOps for staging environment availability by day 3
+- Make API contract review meetings a permanent bi-weekly process
+- James to work with product team on realistic timeline planning
+- Emily to document sprint learnings in Confluence
+
+**Key Decisions:**
+- No overtime as default policy; descope or push tasks to next sprint if needed
+- Code freeze 48 hours before sprint end
+- Minimum 80% test coverage required via automated quality gates
+- API review meetings continue as standard practice
+
+**Improvements Identified:**
+- Need better sprint planning to avoid crunch time
+- Earlier staging environment access required
+- Maintain quality standards even under deadline pressure
+
+**Wins:**
+- CI/CD pipeline reduced deployment time by 67%
+- Excellent frontend-backend collaboration
+- API contract reviews prevented integration issues
+
+**Participants:**
+- James Wilson (Engineering Manager)
+- Emily Parker (Senior Developer)
+- Raj Patel (Lead Developer)
+- Jennifer Lee (QA Lead)

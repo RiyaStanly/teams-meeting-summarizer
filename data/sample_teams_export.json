@@ -1,0 +1,147 @@
+{
+    "meetingId": "19:meeting_ZWU3ZjNmMzYtYjk4MS00MmIyLTg3YmUtMGE5OTc5Zjc3MmQ3@thread.v2",
+    "title": "Q4 Product Planning Session",
+    "startTime": "2024-10-15T10:15:00Z",
+    "endTime": "2024-10-15T10:31:00Z",
+    "organizer": {
+        "name": "Sarah Chen",
+        "email": "sarah.chen@company.com",
+        "role": "Product Manager"
+    },
+    "participants": [
+        {
+            "name": "Sarah Chen",
+            "email": "sarah.chen@company.com",
+            "role": "Organizer"
+        },
+        {
+            "name": "Marcus Johnson",
+            "email": "marcus.johnson@company.com",
+            "role": "Attendee"
+        },
+        {
+            "name": "Lisa Rodriguez",
+            "email": "lisa.rodriguez@company.com",
+            "role": "Attendee"
+        },
+        {
+            "name": "David Kim",
+            "email": "david.kim@company.com",
+            "role": "Attendee"
+        }
+    ],
+    "messages": [
+        {
+            "timestamp": "2024-10-15T10:15:00Z",
+            "speaker": "Sarah Chen",
+            "text": "Good morning everyone! Thanks for joining our Q4 product planning session."
+        },
+        {
+            "timestamp": "2024-10-15T10:15:30Z",
+            "speaker": "Marcus Johnson",
+            "text": "Morning Sarah! Excited to discuss the roadmap."
+        },
+        {
+            "timestamp": "2024-10-15T10:16:00Z",
+            "speaker": "Sarah Chen",
+            "text": "Let's start with the mobile app redesign. Lisa, can you give us an update on the user research findings?"
+        },
+        {
+            "timestamp": "2024-10-15T10:16:30Z",
+            "speaker": "Lisa Rodriguez",
+            "text": "Absolutely. We surveyed 500 users last month and the top request is a dark mode interface. 78% of respondents mentioned eye strain during evening usage."
+        },
+        {
+            "timestamp": "2024-10-15T10:17:00Z",
+            "speaker": "Marcus Johnson",
+            "text": "That's consistent with what we've been hearing from customer support tickets."
+        },
+        {
+            "timestamp": "2024-10-15T10:18:00Z",
+            "speaker": "Lisa Rodriguez",
+            "text": "We also found that users want better notification controls. Many feel overwhelmed by the current notification frequency."
+        },
+        {
+            "timestamp": "2024-10-15T10:19:00Z",
+            "speaker": "Sarah Chen",
+            "text": "Great insights. Let's prioritize dark mode for the December release. Marcus, can your team handle the implementation?"
+        },
+        {
+            "timestamp": "2024-10-15T10:19:30Z",
+            "speaker": "Marcus Johnson",
+            "text": "Yes, we can allocate two engineers starting next week. Estimated completion by December 10th."
+        },
+        {
+            "timestamp": "2024-10-15T10:20:00Z",
+            "speaker": "David Kim",
+            "text": "I have concerns about the backend infrastructure. Are we prepared for the expected 40% increase in API calls during holiday season?"
+        },
+        {
+            "timestamp": "2024-10-15T10:21:00Z",
+            "speaker": "Sarah Chen",
+            "text": "Good point David. What do you recommend?"
+        },
+        {
+            "timestamp": "2024-10-15T10:22:00Z",
+            "speaker": "David Kim",
+            "text": "We should upgrade our AWS instances and implement caching for frequently accessed data. I'll need a $15,000 budget increase for infrastructure."
+        },
+        {
+            "timestamp": "2024-10-15T10:23:00Z",
+            "speaker": "Sarah Chen",
+            "text": "Approved. Please submit the formal request to finance by Friday."
+        },
+        {
+            "timestamp": "2024-10-15T10:24:00Z",
+            "speaker": "Lisa Rodriguez",
+            "text": "One more thing - we received feedback about the search functionality being slow. Can we address this?"
+        },
+        {
+            "timestamp": "2024-10-15T10:25:00Z",
+            "speaker": "David Kim",
+            "text": "Yes, we've already identified the bottleneck. It's the database indexing. We can optimize this alongside the infrastructure upgrade."
+        },
+        {
+            "timestamp": "2024-10-15T10:26:00Z",
+            "speaker": "Sarah Chen",
+            "text": "Perfect. Let's also discuss the enterprise tier pricing. Marcus, thoughts on the competitor analysis you completed?"
+        },
+        {
+            "timestamp": "2024-10-15T10:27:00Z",
+            "speaker": "Marcus Johnson",
+            "text": "Salesforce and HubSpot are pricing similar features at $99/user/month. I recommend we stay competitive at $89/user/month but add premium support."
+        },
+        {
+            "timestamp": "2024-10-15T10:28:00Z",
+            "speaker": "Sarah Chen",
+            "text": "That sounds reasonable. Lisa, can you work with marketing to create the pricing comparison materials?"
+        },
+        {
+            "timestamp": "2024-10-15T10:28:30Z",
+            "speaker": "Lisa Rodriguez",
+            "text": "Absolutely, I'll have a draft by next Tuesday."
+        },
+        {
+            "timestamp": "2024-10-15T10:29:00Z",
+            "speaker": "Sarah Chen",
+            "text": "Excellent work everyone. To summarize: dark mode by December 10th, infrastructure upgrade approved, search optimization in progress, and enterprise pricing at $89/month. Any risks or blockers?"
+        },
+        {
+            "timestamp": "2024-10-15T10:30:00Z",
+            "speaker": "David Kim",
+            "text": "Only risk is potential delays from AWS provisioning. I'll escalate if needed."
+        },
+        {
+            "timestamp": "2024-10-15T10:30:30Z",
+            "speaker": "Sarah Chen",
+            "text": "Thanks David. Let's reconvene next Monday to track progress. Meeting adjourned!"
+        }
+    ],
+    "recordingUrl": null,
+    "chatTranscriptUrl": "https://teams.microsoft.com/l/meetup-join/...",
+    "metadata": {
+        "duration": "16 minutes",
+        "messageCount": 21,
+        "hasRecording": false
+    }
+}

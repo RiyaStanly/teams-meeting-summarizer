@@ -1,0 +1,67 @@
+[11:00 AM] Dr. Amanda Martinez: Good morning team. Let's begin our patient care coordination meeting for this week.
+
+[11:01 AM] Nurse Kevin O'Brien: We have 12 new admissions since Monday. Three are high-priority cases requiring immediate attention.
+
+[11:02 AM] Dr. Amanda Martinez: Walk us through the high-priority patients.
+
+[11:03 AM] Nurse Kevin O'Brien: Patient in room 304, John Anderson, 67-year-old male with acute respiratory distress. Admitted yesterday evening with oxygen saturation at 88%.
+
+[11:04 AM] Dr. Amanda Martinez: Current status?
+
+[11:05 AM] Nurse Kevin O'Brien: Stabilized on supplemental oxygen. Saturation now at 95%. Dr. Patel ordered chest X-ray and pulmonary consultation.
+
+[11:06 AM] Dr. Rebecca Patel: Yes, X-ray showed bilateral infiltrates. Likely pneumonia. Started on IV antibiotics. Monitoring closely.
+
+[11:07 AM] Dr. Amanda Martinez: Good. Next case?
+
+[11:08 AM] Nurse Kevin O'Brien: Room 412, Maria Gonzalez, 52-year-old female post-operative day 2 from hip replacement. Running fever of 101.5°F since this morning.
+
+[11:09 AM] Dr. Rebecca Patel: I examined her at 9 AM. Surgical site looks clean, no signs of infection. Likely post-op inflammatory response, but we're monitoring for infection.
+
+[11:10 AM] Pharmacist Susan Lee: We've added acetaminophen for fever management. If temperature exceeds 102°F, we should consider broad-spectrum antibiotics.
+
+[11:11 AM] Dr. Amanda Martinez: Agreed. Kevin, ensure nursing staff checks vitals every 4 hours.
+
+[11:11 AM] Nurse Kevin O'Brien: Already in place.
+
+[11:12 AM] Dr. Amanda Martinez: Third priority case?
+
+[11:13 AM] Nurse Kevin O'Brien: Room 215, elderly patient Thomas Wright, 83 years old, fall risk. Family reports increased confusion over past 48 hours.
+
+[11:14 AM] Dr. Rebecca Patel: I suspect urinary tract infection causing delirium. Ordered urinalysis and culture. Results should be back this afternoon.
+
+[11:15 AM] Social Worker Michael Torres: I've contacted the family. They're concerned about discharge planning. Patient lives alone and may need assisted living arrangement.
+
+[11:16 AM] Dr. Amanda Martinez: Let's address that once we stabilize his condition. Michael, can you start researching assisted living options in the area?
+
+[11:16 AM] Michael Torres: Absolutely, I'll have options ready by Thursday.
+
+[11:17 AM] Pharmacist Susan Lee: One medication concern - Mr. Wright is on multiple medications that could contribute to confusion. I recommend a medication reconciliation review.
+
+[11:18 AM] Dr. Amanda Martinez: Excellent catch Susan. Please review and provide recommendations by end of day.
+
+[11:19 AM] Pharmacist Susan Lee: Will do.
+
+[11:20 AM] Dr. Amanda Martinez: Any discharge planning updates?
+
+[11:21 AM] Nurse Kevin O'Brien: Four patients scheduled for discharge today. All paperwork completed, prescriptions ready, and follow-up appointments scheduled.
+
+[11:22 AM] Pharmacist Susan Lee: I've counseled all four patients on their medications. No concerns.
+
+[11:23 AM] Dr. Amanda Martinez: Perfect. Any staffing issues for the upcoming weekend?
+
+[11:24 AM] Nurse Kevin O'Brien: We're short one nurse on Saturday night shift. I've requested coverage from the staffing pool.
+
+[11:25 AM] Dr. Amanda Martinez: Keep me posted. If we can't get coverage, we may need to limit new admissions. Patient safety comes first.
+
+[11:26 AM] Michael Torres: One more item - the hospital is implementing a new electronic health record system next month. We need to complete training by November 1st.
+
+[11:27 AM] Dr. Rebecca Patel: I haven't received my training invitation yet.
+
+[11:27 AM] Michael Torres: I'll follow up with IT today.
+
+[11:28 AM] Dr. Amanda Martinez: Everyone needs to prioritize that training. The transition will be challenging, but the new system will improve care coordination.
+
+[11:29 AM] Nurse Kevin O'Brien: Agreed. The current system is frustrating.
+
+[11:30 AM] Dr. Amanda Martinez: Alright team, to summarize: continue monitoring our three priority patients closely, discharge four patients today, address weekend staffing, and complete EHR training by November 1st. Great work everyone!

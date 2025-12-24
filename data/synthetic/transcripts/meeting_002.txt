@@ -1,0 +1,53 @@
+[2:00 PM] James Wilson: Welcome to our sprint retrospective for Sprint 23. Let's discuss what went well and what needs improvement.
+
+[2:01 PM] Emily Parker: I'll start. The new CI/CD pipeline we implemented really sped up our deployment process. We reduced deployment time from 45 minutes to 15 minutes.
+
+[2:02 PM] Raj Patel: Agreed! That was a huge win. However, I noticed we had more bugs in production this sprint than usual.
+
+[2:03 PM] James Wilson: Good observation Raj. Let's dig into that. What do you think caused the increase in bugs?
+
+[2:04 PM] Raj Patel: I think we rushed the code reviews to meet the deadline. We need to maintain our quality standards even under pressure.
+
+[2:05 PM] Emily Parker: Fair point. I also noticed test coverage dropped to 72% from our usual 85% target.
+
+[2:06 PM] Jennifer Lee: From the QA perspective, we didn't have enough time for thorough testing. The builds were coming in very close to the sprint end date.
+
+[2:07 PM] James Wilson: That's valuable feedback. Moving forward, let's enforce a code freeze 48 hours before sprint end to give QA adequate testing time.
+
+[2:08 PM] Raj Patel: I support that. We should also add automated quality gates in our CI pipeline to block merges when coverage falls below 80%.
+
+[2:09 PM] Emily Parker: I can implement that. Should have it ready by next sprint.
+
+[2:10 PM] Jennifer Lee: Another improvement - could we get access to the staging environment earlier? Sometimes we can't test until day 10 of the 14-day sprint.
+
+[2:11 PM] James Wilson: Good catch. Raj, can you work with DevOps to ensure staging is available by day 3?
+
+[2:11 PM] Raj Patel: Absolutely. I'll coordinate with the DevOps team this week.
+
+[2:12 PM] Emily Parker: On a positive note, the collaboration between frontend and backend teams was excellent this sprint. The API contract reviews prevented several integration issues.
+
+[2:13 PM] Jennifer Lee: Yes, those bi-weekly sync meetings really helped catch misalignments early.
+
+[2:14 PM] James Wilson: Let's make those API review meetings a permanent part of our process. What about team morale and workload?
+
+[2:15 PM] Raj Patel: Honestly, the overtime was challenging. Three consecutive weeks of evening work took a toll on the team.
+
+[2:16 PM] Emily Parker: I second that. We need better sprint planning to avoid crunch time.
+
+[2:17 PM] James Wilson: Understood. I'll work with product to push back on unrealistic timelines. Your wellbeing is more important than hitting arbitrary deadlines.
+
+[2:18 PM] Jennifer Lee: Appreciate that James. The team has been feeling the burnout.
+
+[2:19 PM] James Wilson: Let's commit to no overtime as a default. If we can't finish in normal hours, we'll descope or push to the next sprint.
+
+[2:20 PM] Emily Parker: That would really help with work-life balance.
+
+[2:21 PM] James Wilson: Alright team, to recap: faster deployments were a win, but we need to improve test coverage, enforce code freeze 48 hours before sprint end, improve staging environment access, and protect the team from overtime. Any final thoughts?
+
+[2:22 PM] Raj Patel: Let's also document our learnings in Confluence so future teams can benefit.
+
+[2:22 PM] James Wilson: Excellent idea. Emily, can you own that documentation?
+
+[2:23 PM] Emily Parker: Sure thing!
+
+[2:23 PM] James Wilson: Great retrospective everyone. See you at sprint planning tomorrow!

@@ -1,0 +1,36 @@
+The academic team met to finalize the AI Ethics course curriculum for next semester. The preliminary syllabus was deemed too theoretical, prompting the addition of real-world case studies including ChatGPT privacy concerns, facial recognition bias in law enforcement, and the Google AI ethics team controversy. These will be discussed in weeks 3, 5, and 7. Guest speakers from Microsoft and OpenAI will be invited to provide industry perspectives in weeks 4, 8, and 12. The final research paper structure was revised to include milestone submissions (proposal by week 5, literature review by week 9, final paper by week 14) to improve student time management and prevent last-minute work. Students will complete individual papers but may optionally work in pairs for collaborative analysis.
+
+**Action Items:**
+- Mark Davidson to develop case study materials by next Friday
+- Sophia Kumar to coordinate with Microsoft and OpenAI contacts for guest lectures this week
+- Ryan Chen to create grading rubric for milestone submissions by Monday
+- Mark Davidson to research open educational resources (OER) textbook options by next week
+- Linda Zhao to request additional TA from department for second course section
+
+**Key Decisions:**
+- Add three case studies in weeks 3, 5, and 7
+- Schedule guest lectures in weeks 4, 8, and 12
+- Implement milestone-based paper submissions (weeks 5, 9, 14)
+- Individual papers required, but pairs allowed optionally
+- Reduce textbook burden by using one primary text plus OER options
+- Offer two course sections if demand exceeds 40 students
+- Sophia Kumar to teach second section with TA support
+
+**Course Improvements:**
+- More practical, case-based learning approach
+- Industry practitioner involvement through guest lectures
+- Better scaffolding for student research projects
+- Cost reduction through open educational resources
+- Potential capacity increase to accommodate student demand
+
+**Timeline:**
+- Next Friday: Case study materials draft
+- This week: Guest speaker coordination
+- Next Monday: Grading rubric completion
+- Next week: OER textbook research
+
+**Participants:**
+- Professor Linda Zhao (Course Lead)
+- Professor Mark Davidson
+- Dr. Sophia Kumar
+- Teaching Assistant Ryan Chen

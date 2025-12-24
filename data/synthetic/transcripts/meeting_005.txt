@@ -1,0 +1,77 @@
+[3:00 PM] Professor Linda Zhao: Welcome everyone to our curriculum development meeting. We're here to finalize the AI Ethics course for next semester.
+
+[3:01 PM] Professor Mark Davidson: Thanks for organizing this Linda. I've reviewed the preliminary syllabus and it's comprehensive.
+
+[3:02 PM] Dr. Sophia Kumar: I agree, but I think we should add more case studies from recent AI incidents. The syllabus feels too theoretical.
+
+[3:03 PM] Professor Linda Zhao: Good point. What specific cases are you thinking about?
+
+[3:04 PM] Dr. Sophia Kumar: The ChatGPT privacy concerns from earlier this year, facial recognition bias in law enforcement, and the Google AI ethics team controversy.
+
+[3:05 PM] Professor Mark Davidson: Those are excellent real-world examples. Students need to understand the practical implications.
+
+[3:06 PM] Teaching Assistant Ryan Chen: From a student perspective, case studies make the content more engaging. Theory alone can be dry.
+
+[3:07 PM] Professor Linda Zhao: Agreed. Let's allocate week 3, 5, and 7 for in-depth case study discussions. Mark, can you develop the case study materials?
+
+[3:08 PM] Professor Mark Davidson: Absolutely. I'll have drafts ready by next Friday.
+
+[3:09 PM] Dr. Sophia Kumar: What about guest speakers? Having industry practitioners would add tremendous value.
+
+[3:10 PM] Professor Linda Zhao: Excellent idea. Do you have contacts?
+
+[3:11 PM] Dr. Sophia Kumar: Yes, I know two AI ethicists at Microsoft and one at OpenAI. They've expressed interest in speaking to students.
+
+[3:12 PM] Ryan Chen: Students would love that. It would also help with networking and job opportunities.
+
+[3:13 PM] Professor Linda Zhao: Let's schedule guest lectures for weeks 4, 8, and 12. Sophia, can you coordinate with your contacts?
+
+[3:13 PM] Dr. Sophia Kumar: I'll reach out this week.
+
+[3:14 PM] Professor Mark Davidson: One concern - the course requires students to complete a final research paper. Given the technical complexity, should we offer more scaffolding?
+
+[3:15 PM] Professor Linda Zhao: What do you suggest?
+
+[3:16 PM] Professor Mark Davidson: Milestone submissions - proposal by week 5, literature review by week 9, and final paper by week 14. This prevents last-minute rushing.
+
+[3:17 PM] Ryan Chen: That would really help. Many students struggle with time management on large projects.
+
+[3:18 PM] Professor Linda Zhao: Excellent suggestion. Let's implement the milestone approach. Ryan, can you create a grading rubric for each milestone?
+
+[3:18 PM] Ryan Chen: Sure, I'll have it ready by Monday.
+
+[3:19 PM] Dr. Sophia Kumar: What about group projects versus individual papers?
+
+[3:20 PM] Professor Mark Davidson: I prefer individual papers for graduate courses. It ensures each student develops critical thinking skills.
+
+[3:21 PM] Professor Linda Zhao: I agree, but let's allow students to work in pairs if they choose. Some topics benefit from collaborative analysis.
+
+[3:22 PM] Dr. Sophia Kumar: That's a good compromise.
+
+[3:23 PM] Professor Linda Zhao: Now, textbook selection. The current draft lists three textbooks. That's expensive for students.
+
+[3:24 PM] Professor Mark Davidson: We could designate one primary text and make the others optional references.
+
+[3:25 PM] Ryan Chen: Please consider open educational resources. Several excellent AI ethics books are available for free online.
+
+[3:26 PM] Professor Linda Zhao: Great point Ryan. Mark, can you research OER options?
+
+[3:26 PM] Professor Mark Davidson: Will do. I'll compile a list by next week.
+
+[3:27 PM] Dr. Sophia Kumar: Last item - class size. We're approved for 40 students, but I suspect demand will exceed that.
+
+[3:28 PM] Professor Linda Zhao: The department chair mentioned we could add a second section if needed. I'd teach one section, who wants to teach the other?
+
+[3:29 PM] Professor Mark Davidson: I'm interested, but my schedule is full next semester.
+
+[3:30 PM] Dr. Sophia Kumar: I can do it if we can find TA support.
+
+[3:31 PM] Professor Linda Zhao: I'll request an additional TA from the department. Ryan, would you be interested in supporting both sections?
+
+[3:31 PM] Ryan Chen: Yes, definitely! This is exactly the kind of teaching experience I need.
+
+[3:32 PM] Professor Linda Zhao: Perfect. To summarize: add three case studies, secure three guest speakers, implement milestone submissions for papers, research OER textbooks, and prepare to offer two sections. Anything else?
+
+[3:33 PM] Dr. Sophia Kumar: I think we've covered everything. This is going to be a fantastic course.
+
+[3:33 PM] Professor Linda Zhao: Thanks everyone for your input!
