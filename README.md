@@ -9,14 +9,22 @@ A production-ready end-to-end system that ingests meeting transcripts, generates
 
 ## Features
 
+**Core Capabilities:**
 - **🤖 Fine-tuned Summarization**: BART model fine-tuned on meeting transcripts
 - **🏷️ Named Entity Recognition**: Dual backends (spaCy + HuggingFace) with easy switching
 - **📊 Structured Outputs**: JSON + Markdown summary reports with action items and decisions
-- **🚀 FastAPI Backend**: Production-ready REST API with 3 endpoints
+- **🚀 FastAPI Backend**: Production-ready REST API with 5 endpoints
 - **🎨 Streamlit UI**: User-friendly web interface for upload and visualization
 - **✅ Comprehensive Testing**: pytest suite with 90%+ coverage
 - **🐳 Docker Ready**: Containerized deployment with docker-compose
 - **📓 Colab Compatible**: Run training and inference in Google Colab
+
+**Real-Time Features (NEW):**
+- **🎤 Azure Speech-to-Text**: Real-time audio transcription with speaker diarization
+- **📞 Microsoft Teams Integration**: OAuth2 authentication and meeting access via Graph API
+- **⚡ WebSocket Streaming**: Live transcript and summary updates
+- **🔄 Async Processing**: Real-time pipeline with sliding window buffering
+- **📡 Audio Upload API**: Upload audio files for automatic transcription + summarization
 
 ## Quick Start
 
@@ -172,6 +180,89 @@ make docker-run
 docker build -t teams-summarizer -f docker/Dockerfile .
 docker run -p 8000:8000 teams-summarizer
 ```
+
+---
+
+## Real-Time Features Usage
+
+### Audio Transcription
+
+**Using Azure Speech-to-Text CLI:**
+
+```bash
+# Transcribe audio file
+python scripts/transcribe_audio.py \
+    --audio meeting.wav \
+    --output outputs/transcribed \
+    --continuous
+
+# Outputs transcript.txt and transcript.json
+```
+
+**Using API:**
+
+```bash
+# Upload audio file for transcription + summarization
+curl -X POST "http://localhost:8000/meetings/upload-audio" \
+  -F "file=@meeting.wav" \
+  -F "meeting_id=meeting_001"
+
+# Response includes:
+# - Full transcript
+# - AI-generated summary
+# - Extracted entities
+```
+
+**Supported Audio Formats:** WAV, MP3, M4A, OGG
+
+### Microsoft Teams Integration
+
+```python
+from src.teams_integration import TeamsAuthManager, TeamsMeetingsClient
+
+# Authenticate with Teams
+auth = TeamsAuthManager(use_device_code=True)
+auth.authenticate()  # Follow device code flow in browser
+
+# List upcoming meetings
+client = TeamsMeetingsClient(auth)
+meetings = client.list_user_meetings(limit=10)
+
+for meeting in meetings:
+    print(f"Meeting: {meeting['subject']}")
+```
+
+**Setup Required:**
+1. Register app in Azure AD
+2. Add Graph API permissions
+3. Configure credentials in `.env`
+
+See [docs/TEAMS_SETUP.md](docs/TEAMS_SETUP.md) for detailed instructions.
+
+### Real-Time Streaming (WebSocket)
+
+```javascript
+// Connect to real-time meeting updates
+const ws = new WebSocket('ws://localhost:8765/meeting/meeting_001');
+
+ws.onmessage = (event) => {
+    const data = JSON.parse(event.data);
+    
+    if (data.type === 'transcript_update') {
+        console.log('New text:', data.text);
+    }
+    
+    if (data.type === 'summary_update') {
+        console.log('Summary:', data.summary);
+    }
+    
+    if (data.type === 'entities_update') {
+        console.log('Entities:', data.entities);
+    }
+};
+```
+
+---
 
 ## Project Structure
 
