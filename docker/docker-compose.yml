@@ -1,6 +1,17 @@
 version: '3.8'
 
 services:
+  redis:
+    image: redis:7-alpine
+    container_name: teams-summarizer-redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis-data:/data
+    restart: unless-stopped
+    networks:
+      - summarizer-network
+
   api:
     build:
       context: ..
@@ -16,9 +27,17 @@ services:
       - LOG_LEVEL=INFO
       - API_HOST=0.0.0.0
       - API_PORT=8000
+      - REDIS_HOST=redis
+      - REDIS_PORT=6379
     restart: unless-stopped
+    depends_on:
+      - redis
     networks:
       - summarizer-network
+
+volumes:
+  redis-data:
+
 
 networks:
   summarizer-network:

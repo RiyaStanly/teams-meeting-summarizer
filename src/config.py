@@ -71,6 +71,32 @@ class Settings(BaseSettings):
     hf_home: Path = Field(default=".cache/huggingface")
     transformers_cache: Path = Field(default=".cache/transformers")
 
+    # Azure Speech-to-Text settings
+    azure_speech_key: str = Field(default="")
+    azure_speech_region: str = Field(default="eastus")
+    azure_speech_language: str = Field(default="en-US")
+    azure_speech_enable_diarization: bool = Field(default=True)
+
+    # Microsoft Teams integration
+    teams_client_id: str = Field(default="")
+    teams_client_secret: str = Field(default="")
+    teams_tenant_id: str = Field(default="")
+    teams_redirect_uri: str = Field(default="http://localhost:8000/auth/callback")
+
+    # Real-time streaming settings
+    streaming_buffer_size: int = Field(default=500)  # words
+    streaming_overlap: int = Field(default=50)  # words
+    streaming_chunk_duration: int = Field(default=30)  # seconds
+    websocket_max_connections: int = Field(default=100)
+    websocket_heartbeat_interval: int = Field(default=30)  # seconds
+
+    # Redis settings
+    redis_host: str = Field(default="localhost")
+    redis_port: int = Field(default=6379)
+    redis_db: int = Field(default=0)
+    redis_password: str = Field(default="")
+    session_timeout: int = Field(default=7200)  # 2 hours
+
     def __init__(self, **kwargs):
         """Initialize settings and resolve paths."""
         super().__init__(**kwargs)

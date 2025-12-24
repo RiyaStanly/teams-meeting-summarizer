@@ -7,8 +7,14 @@ from fastapi import APIRouter, File, HTTPException, UploadFile
 from fastapi.responses import JSONResponse
 
 from src import __version__
-from src.api.schemas import HealthResponse, SummarizeRequest, SummarizeResponse
+from src.api.schemas import (
+    HealthResponse,
+    SummarizeRequest,
+    SummarizeResponse,
+    AudioUploadResponse,
+)
 from src.config import settings
+from src.transcription.azure_stt import AzureSpeechTranscriber
 from src.utils.logger import logger
 
 # Import global pipeline from main
@@ -135,6 +141,68 @@ async def summarize_file(
         raise HTTPException(status_code=500, detail=str(e))
 
 
+@router.post("/meetings/upload-audio", response_model=AudioUploadResponse)
+async def upload_audio(file: UploadFile = File(...), meeting_id: str = None):
+    """
+    Upload and transcribe audio file using Azure Speech-to-Text.
+
+    Args:
+        file: Audio file (WAV, MP3, M4A)
+        meeting_id: Optional meeting identifier
+
+    Returns:
+        Transcript and summary
+    """
+    if not file.filename.endswith((".wav", ".mp3", ".m4a", ".ogg")):
+        raise HTTPException(
+            status_code=400, detail="Invalid audio format. Supported: WAV, MP3, M4A, OGG"
+        )
+
+    try:
+        logger.info(f"Processing audio upload: {file.filename}")
+
+        # Save uploaded file
+        with tempfile.NamedTemporaryFile(
+            mode="wb", delete=False, suffix=Path(file.filename).suffix
+        ) as tmp_file:
+            content = await file.read()
+            tmp_file.write(content)
+            tmp_path = tmp_file.name
+
+        # Transcribe using Azure Speech
+        transcript = AzureSpeechTranscriber.transcribe_audio_file(tmp_path)
+
+        if not transcript:
+            raise HTTPException(status_code=500, detail="Transcription failed")
+
+        # Generate summary if pipeline loaded
+        if main.pipeline:
+            result = main.pipeline.process_transcript(
+                transcript=transcript,
+                meeting_id=meeting_id or Path(file.filename).stem,
+            )
+            summary = result["summary"]
+            entities = result["entities"]
+        else:
+            summary = ""
+            entities = {}
+
+        # Cleanup
+        Path(tmp_path).unlink()
+
+        return {
+            "meeting_id": meeting_id or Path(file.filename).stem,
+            "transcript": transcript,
+            "summary": summary,
+            "entities": entities,
+            "audio_file": file.filename,
+        }
+
+    except Exception as e:
+        logger.error(f"Audio upload failed: {e}")
+        raise HTTPException(status_code=500, detail=str(e))
+
+
 @router.get("/health", response_model=HealthResponse)
 async def health_check():
     """
@@ -143,9 +211,14 @@ async def health_check():
     Returns:
         HealthResponse with service status and configuration
     """
+    azure_configured = bool(settings.azure_speech_key)
+    teams_configured = bool(settings.teams_client_id)
+
     return {
         "status": "healthy" if main.pipeline is not None else "degraded",
         "model_loaded": main.pipeline is not None,
         "ner_backend": settings.ner_backend,
         "version": __version__,
+        "azure_speech_enabled": azure_configured,
+        "teams_integration_enabled": teams_configured,
     }
